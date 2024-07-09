@@ -1,4 +1,10 @@
+
+
 # Alura HUB
+
+<div align="center">
+  <img src="https://github.com/Lunaartur/alurahub/assets/125662966/bba0254d-adeb-466f-882c-538efd2e7a8b" alt="alurahub">
+</div>
 
 Projeto desenvolvido em Spring Boot, onde simulamos o back-end de um fórum com funcionalidades relacionadas a tópicos, possuindo também um controle de usuários utilizando TokenJWT.
 
@@ -25,8 +31,8 @@ Projeto desenvolvido em Spring Boot, onde simulamos o back-end de um fórum com 
 4. Insomnia
  - Dispare uma requisição com "/login" para gerar o tokenJWT
  Importante -> Esse token será usado em todas as outras operações
-5. Para começar, insira um usuário no formato:
-   {
+5. Para começar, insira um usuário no formato Json:
+  {
   "titulo": "",
   "mensagem": "",
   "curso": "",
@@ -35,7 +41,6 @@ Projeto desenvolvido em Spring Boot, onde simulamos o back-end de um fórum com 
     "email": ""
   }
 }
-
 Pronto, tudo configurado, agora só é necessário manipular os tópicos restantes.
 
 ## ⚙️ Executando os testes
